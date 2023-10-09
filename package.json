@@ -1,0 +1,16 @@
+{
+  "name": "johnclendvoy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
+    "build": "npx tailwindcss -i ./public/input.css -o ./public/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

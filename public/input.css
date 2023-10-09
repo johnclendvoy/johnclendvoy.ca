@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+	a {
+	  @apply hover:text-green-400 focus:outline-none focus:border-b focus:border-b-green-400;
+	}
+  }
